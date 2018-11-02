@@ -28,6 +28,7 @@ div.hero-image{
 	top:50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	font-size:16px;
 	
 
 }
@@ -39,13 +40,16 @@ div.hero-text h2{
 	font-size: 3em;
 	top:60%;
 	left: 50%;
-	color: #01402c;
+	color: #d4ac0d;
 }
 
 div.hero-text p{
 	font-size: 1em;
 	color: #fff;
 	
+}
+#item h2{
+	color: #fff;
 }
 .hero-image #youth{
 	
@@ -66,4 +70,50 @@ footer#foot{
 	color: #fff;
 	border-radius: 5px;
 
+}
+#about{
+	background: rgba(102,0,204, 0.75);
+	color:#f2f2f2;
+	font-size: 1em;
+}
+#keye{
+	background:rgba(255, 60,0 ,0.5);
+	
+}
+#page{
+	background-image:linear-gradient(45deg, rgba(203,67,53, 0.8), rgba(255,87,51,0.6), rgba(230,126,34,0.85)), url(../img/football.jpg);
+	
+	background-repeat:no-repeat !important;
+	background-size:100% !important;
+	position: relative !important;
+
+}	
+#icon{
+	margin: 2px;
+	padding: 5px;
+	float: center;
+	position:center;
+	max-width: 60%;
+}
+#page{
+	
+	background:linear-gradient(0deg, rgba(2,2,50, 0.7), rgba(2,2,43,0.6), rgba(1,1,74,0.3)), url(../img/church.jpg);
+	/*background: linear-gradient (0deg, rgba(2,2,50,0.7), rgba(2,2,43,0.6), rgba(1,1,74,0.3));
+*/}
+#tina{
+	color: #fff;
+	padding: 5px;
+	margin:5px;
+	background: 
+}
+#tina .btn{
+	border:1px;
+	border-color: #000;
+	border-radius: 4px;
+}
+#hotform{
+	background:
+}
+#locate{
+	color: #000;
 }
